@@ -23,3 +23,4 @@ test('Home page exists', function(assert) {
 		assert.equal(currentURL(), '/');
 	});
 });
+

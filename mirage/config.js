@@ -1,4 +1,13 @@
+
 export default function() {
+
+  this.urlPrefix = 'http://localhost:4200';
+  this.namespace = 'api';
+
+  this.get('/tasks', (schema, request) => {
+    console.log(request);
+    return schema.authors.all();
+  });
 
   // These comments are here to help you get started. Feel free to delete them.
 

@@ -1,4 +1,7 @@
-export default function(/* server */) {
+export default function(server) {
+
+  // var task = server.create('task', 1);
+  server.create('task', 1);
 
   /*
     Seed your development database using your factories.
